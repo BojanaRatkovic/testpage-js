@@ -22,7 +22,7 @@ document.getElementById("login").addEventListener("click", function () {
           localStorage.setItem("auth_token", data.token);
           localStorage.setItem("userId", data.UserId);
           alert("Prijava uspešna!");
-          window.location.href = "testpage.html"; // redirect to testpage.html
+          window.location.href = "testpage.html";
       } else {
           alert("Neuspešno");
           myDiv.style.display = "block";
