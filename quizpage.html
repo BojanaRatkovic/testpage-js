@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="slike/test.png">
+    <title>Test | Page</title>
+    <link rel="stylesheet" href="quizpage.css">
+</head>
+<body>
+    <div class="naslov">
+        <h2>Pitanja :</h2>
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="box">
+                <div class="ques">
+                    <div id="test">
+                        <h2>Start Test</h2>
+                        <p id="pitanje"></p>
+                        <div id="odgovori"></div>
+                        <ul>
+                            <li><button id="ans1" onclick="submitAnswer('1', this.textContent)"></button></li>
+                            <li><button id="ans2" onclick="submitAnswer('2', this.textContent)"></button></li>
+                            <li><button id="ans3" onclick="submitAnswer('3', this.textContent)"></button></li>
+                        </ul>
+                        <div>
+                            <button id="submitAnswers">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="quizpage.js"></script>
+</body>
+</html>
